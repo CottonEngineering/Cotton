@@ -8967,6 +8967,13 @@ part number 2062-2P from STA</description>
 <wire x1="-3.555" y1="3.1" x2="-3.555" y2="1.778" width="0.127" layer="21"/>
 <wire x1="3.555" y1="3.11" x2="3.555" y2="1.778" width="0.127" layer="21"/>
 <wire x1="3.555" y1="-3.1" x2="3.555" y2="-1.8" width="0.127" layer="21"/>
+<polygon width="0.127" layer="25">
+<vertex x="-0.5" y="-3.5"/>
+<vertex x="-0.5" y="-4.1"/>
+<vertex x="-0.8" y="-3.8"/>
+</polygon>
+<wire x1="-0.9" y1="-3.4" x2="-0.9" y2="-4.2" width="0.127" layer="25"/>
+<wire x1="-1.2" y1="-3.8" x2="0" y2="-3.8" width="0.127" layer="25"/>
 </package>
 <package name="SCHOTTKY_DIODE_DO219AB">
 <smd name="P$1" x="-1.55" y="0" dx="1.2" dy="1.4" layer="1"/>
@@ -8989,10 +8996,18 @@ part number 2062-2P from STA</description>
 <wire x1="1.45" y1="-0.95" x2="1.45" y2="-0.8" width="0.0762" layer="21"/>
 <wire x1="-1.45" y1="0.95" x2="-1.45" y2="0.8" width="0.0762" layer="21"/>
 <wire x1="-1.45" y1="-0.95" x2="-1.45" y2="-0.8" width="0.0762" layer="21"/>
-<text x="-1.5" y="1.1" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.3" y="1.1" size="0.6096" layer="25">&gt;NAME</text>
 <circle x="2.3" y="-1" radius="0.14141875" width="0.0762" layer="21"/>
 <text x="-2.2" y="-1.1" size="0.254" layer="21">A</text>
 <text x="1.8" y="-1.1" size="0.254" layer="21">K</text>
+<polygon width="0.127" layer="25">
+<vertex x="-0.2" y="1.8"/>
+<vertex x="-0.2" y="1.2"/>
+<vertex x="0.1" y="1.5"/>
+</polygon>
+<wire x1="0.2" y1="1.9" x2="0.2" y2="1.1" width="0.127" layer="25"/>
+<wire x1="-0.2" y1="1.5" x2="-0.7" y2="1.5" width="0.127" layer="25"/>
+<wire x1="0.2" y1="1.5" x2="0.5" y2="1.5" width="0.127" layer="25"/>
 </package>
 </packages>
 <symbols>
@@ -9145,21 +9160,21 @@ part number 2062-2P from STA</description>
 Diode with low voltage drop</description>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="94"/>
 <text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.27" x2="0.762" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="1.27" x2="1.778" y2="1.016" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
 <vertex x="-1.27" y="1.27"/>
 <vertex x="1.27" y="0"/>
 <vertex x="-1.27" y="-1.27"/>
 </polygon>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="1.27" x2="1.778" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="0.762" y2="-1.016" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9794,9 +9809,9 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="D2" library="VIPR_Components" deviceset="SCHOTTKY_DIODE_SS310L_DO_219AB" device=""/>
 <part name="D3" library="VIPR_Components" deviceset="SCHOTTKY_DIODE_SS310L_DO_219AB" device=""/>
 <part name="D4" library="VIPR_Components" deviceset="SCHOTTKY_DIODE_SS310L_DO_219AB" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="12"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="12"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="12"/>
 <part name="J8" library="VIPR_Components" deviceset="CONN_01" device="" value="GPIO_13 (OUT)"/>
 <part name="J9" library="VIPR_Components" deviceset="CONN_01" device="" value="GPIO_6 (OUT)"/>
 <part name="J10" library="VIPR_Components" deviceset="CONN_01" device="" value="GPIO_5 (OUT)"/>
@@ -9811,11 +9826,10 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <text x="15.24" y="83.82" size="1.778" layer="91">Raspberry Pi 40-Pin (2X20) Header</text>
 <text x="60.96" y="63.5" size="1.778" layer="91">List of GPIOs used:
 -------------------------------------------------
-GPIO 26 - Indicator LED
-GPIO 12 - Neighboring left-side solenoid/air-knife
+GPIO 12 - Not used, pad available (no relay)
 GPIO 13 - Middle/Main solenoid/air-knife
 GPIO 6 - Neighboring right-side solenoid/air-knife
-GPIO 5 - Clean/cooling air solenoid control</text>
+GPIO 5 - Neighboring left-side solenoid/air knifel</text>
 <text x="20.32" y="86.36" size="1.778" layer="91">Mouser#: 485-222</text>
 </plain>
 <instances>
@@ -10017,9 +10031,9 @@ GPIO 5 - Clean/cooling air solenoid control</text>
 <sheet>
 <description>Solid State Relay layout</description>
 <plain>
-<text x="0" y="0" size="1.778" layer="91">SSRelay 2 - Neighboring right-side switched solenoid/air-knife</text>
-<text x="-2.54" y="38.1" size="1.778" layer="91">SSRelay 1 - Middle/main switched solenoid/air-knife</text>
-<text x="114.3" y="38.1" size="1.778" layer="91">SSRelay 3 - Neighboring left-side switched solenoid/air-knife</text>
+<text x="0" y="0" size="1.778" layer="91">SSRelay 2 (SOL_3) - Neighboring right-side switched solenoid/air-knife</text>
+<text x="-2.54" y="38.1" size="1.778" layer="91">SSRelay 1 (SOL_2) - Middle/main switched solenoid/air-knife</text>
+<text x="114.3" y="38.1" size="1.778" layer="91">SSRelay 3 (SOL_1) - Neighboring left-side switched solenoid/air-knife</text>
 <text x="119.38" y="0" size="1.778" layer="91">SSRelay 4 - Enable solenoid, 12V input</text>
 <text x="187.96" y="58.42" size="1.778" layer="91">GPIO Current for Raspberry Pi Max 8mA:
 -------------------------------------------------------
@@ -10035,9 +10049,12 @@ Target 10 mA for solenoid enable signal
 
 If Vin = 15V
 15V / 1200 ohm = 0.0125 A = 12.5 mA</text>
-<text x="205.74" y="35.56" size="1.778" layer="91">DC Parallel Load Connection: rated for 1000 mA continuous</text>
-<text x="2.54" y="48.26" size="1.778" layer="91">Solenoids connected in a high-side switch configuration.
-Meaning solenoids are always connected to ground and relays will handle connection to 12V</text>
+<text x="205.74" y="35.56" size="1.778" layer="91">DC Parallel Load Connection (C): rated for 6 A continuous</text>
+<text x="2.54" y="48.26" size="1.778" layer="91">Solenoids connected in a low-side switch configuration.
+Meaning solenoids are always connected to 12V and relays will handle connection to GND</text>
+<text x="60.96" y="-45.72" size="1.778" layer="91">Reverse biased schottky diode in parallel with the solenoid to act
+as a flyback diode for circuit protection from voltage spikes
+caused by inductive loads.</text>
 </plain>
 <instances>
 <instance part="R2" gate="G$1" x="2.54" y="-12.7" smashed="yes">
@@ -10064,29 +10081,29 @@ Meaning solenoids are always connected to ground and relays will handle connecti
 <instance part="SSR2" gate="G$1" x="27.94" y="-17.78" smashed="yes"/>
 <instance part="SSR3" gate="G$1" x="149.86" y="20.32" smashed="yes"/>
 <instance part="SSR4" gate="G$1" x="149.86" y="-17.78" smashed="yes"/>
-<instance part="D2" gate="G$1" x="73.66" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="18.288" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="88.9" y="14.732" size="0.8128" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D2" gate="G$1" x="68.58" y="10.16" smashed="yes">
+<attribute name="NAME" x="66.04" y="12.192" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="58.42" y="8.128" size="0.8128" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="73.66" y="-17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="-19.812" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="88.9" y="-23.368" size="0.8128" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D3" gate="G$1" x="66.04" y="-25.4" smashed="yes">
+<attribute name="NAME" x="63.5" y="-23.368" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="60.96" y="-29.972" size="0.8128" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D4" gate="G$1" x="200.66" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="203.2" y="18.288" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="215.9" y="14.732" size="0.8128" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D4" gate="G$1" x="187.96" y="12.7" smashed="yes">
+<attribute name="NAME" x="185.42" y="14.732" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="10.668" size="0.8128" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R8" gate="G$1" x="63.5" y="20.32" smashed="yes">
-<attribute name="NAME" x="59.69" y="21.8186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.69" y="17.018" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="78.74" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.55" y="8.6614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="82.55" y="13.462" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="63.5" y="-17.78" smashed="yes">
-<attribute name="NAME" x="59.69" y="-16.2814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.69" y="-21.082" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="76.2" y="-25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.01" y="-26.8986" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="-22.098" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="190.5" y="20.32" smashed="yes">
-<attribute name="NAME" x="186.69" y="21.8186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.69" y="17.018" size="1.778" layer="96"/>
+<instance part="R10" gate="G$1" x="198.12" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="201.93" y="11.2014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="201.93" y="16.002" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J8" gate="G$1" x="-17.78" y="17.78" smashed="yes">
 <attribute name="VALUE" x="-20.32" y="12.954" size="1.778" layer="96" font="vector"/>
@@ -10169,25 +10186,6 @@ Meaning solenoids are always connected to ground and relays will handle connecti
 <junction x="-7.62" y="-12.7"/>
 </segment>
 </net>
-<net name="SOL_3" class="0">
-<segment>
-<pinref part="SSR2" gate="G$1" pin="GND(7)"/>
-<wire x1="43.18" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-12.7" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="SSR2" gate="G$1" pin="GND(6)"/>
-<wire x1="45.72" y1="-15.24" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-17.78" x2="43.18" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="45.72" y="-15.24"/>
-<label x="71.12" y="-10.16" size="1.778" layer="95"/>
-<wire x1="45.72" y1="-15.24" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-15.24" x2="55.88" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-10.16" x2="71.12" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-15.24" x2="55.88" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="55.88" y="-15.24"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -10245,91 +10243,58 @@ Meaning solenoids are always connected to ground and relays will handle connecti
 <pinref part="SSR4" gate="G$1" pin="C(3)"/>
 </segment>
 <segment>
-<label x="208.28" y="20.32" size="1.778" layer="95"/>
-<wire x1="203.2" y1="20.32" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-</segment>
-<segment>
-<label x="78.74" y="20.32" size="1.778" layer="95"/>
-<wire x1="76.2" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-</segment>
-<segment>
-<label x="78.74" y="-17.78" size="1.778" layer="95"/>
-<wire x1="76.2" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="SOL_2" class="0">
-<segment>
 <pinref part="SSR1" gate="G$1" pin="GND(7)"/>
 <wire x1="43.18" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="25.4" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SSR1" gate="G$1" pin="GND(6)"/>
+<wire x1="45.72" y1="25.4" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="22.86" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="45.72" y="22.86"/>
-<label x="71.12" y="27.94" size="1.778" layer="95"/>
-<wire x1="45.72" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="22.86" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="22.86" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-<junction x="55.88" y="22.86"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SOL_12V" class="0">
-<segment>
-<pinref part="SSR1" gate="G$1" pin="VLOAD(8)"/>
-<wire x1="43.18" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
-<label x="50.8" y="30.48" size="1.778" layer="95"/>
+<label x="48.26" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SSR1" gate="G$1" pin="VLOAD(5)"/>
-<wire x1="43.18" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<label x="50.8" y="15.24" size="1.778" layer="95"/>
+<pinref part="SSR2" gate="G$1" pin="GND(7)"/>
+<wire x1="43.18" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="SSR2" gate="G$1" pin="GND(6)"/>
+<wire x1="45.72" y1="-12.7" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-15.24" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-17.78" x2="43.18" y2="-17.78" width="0.1524" layer="91"/>
+<label x="48.26" y="-15.24" size="1.778" layer="95"/>
+<wire x1="45.72" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="45.72" y="-15.24"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="-7.62" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
-<label x="50.8" y="-7.62" size="1.778" layer="95"/>
-<pinref part="SSR2" gate="G$1" pin="VLOAD(8)"/>
-</segment>
-<segment>
-<wire x1="43.18" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
-<label x="50.8" y="-22.86" size="1.778" layer="95"/>
-<pinref part="SSR2" gate="G$1" pin="VLOAD(5)"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="30.48" x2="172.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="172.72" y="30.48" size="1.778" layer="95"/>
-<pinref part="SSR3" gate="G$1" pin="VLOAD(8)"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="15.24" x2="172.72" y2="15.24" width="0.1524" layer="91"/>
-<label x="172.72" y="15.24" size="1.778" layer="95"/>
-<pinref part="SSR3" gate="G$1" pin="VLOAD(5)"/>
+<pinref part="SSR3" gate="G$1" pin="GND(7)"/>
+<wire x1="165.1" y1="25.4" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SSR3" gate="G$1" pin="GND(6)"/>
+<wire x1="167.64" y1="25.4" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="22.86" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="20.32" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="22.86" x2="170.18" y2="22.86" width="0.1524" layer="91"/>
+<junction x="167.64" y="22.86"/>
+<label x="170.18" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="68.58" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="68.58" y1="-17.78" x2="71.12" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-25.4" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="195.58" y1="20.32" x2="198.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="12.7" x2="190.5" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO_5" class="0">
@@ -10344,23 +10309,75 @@ Meaning solenoids are always connected to ground and relays will handle connecti
 <junction x="111.76" y="25.4"/>
 </segment>
 </net>
+<net name="SOL_2" class="0">
+<segment>
+<pinref part="SSR1" gate="G$1" pin="VLOAD(8)"/>
+<wire x1="43.18" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="30.48" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SSR1" gate="G$1" pin="VLOAD(5)"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<junction x="58.42" y="22.86"/>
+<label x="68.58" y="22.86" size="1.778" layer="95"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="63.5" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="10.16" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<junction x="63.5" y="22.86"/>
+</segment>
+</net>
+<net name="SOL_3" class="0">
+<segment>
+<pinref part="SSR2" gate="G$1" pin="VLOAD(8)"/>
+<wire x1="43.18" y1="-7.62" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-7.62" x2="58.42" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="SSR2" gate="G$1" pin="VLOAD(5)"/>
+<wire x1="58.42" y1="-15.24" x2="58.42" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-22.86" x2="43.18" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-15.24" x2="60.96" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="58.42" y="-15.24"/>
+<label x="68.58" y="-15.24" size="1.778" layer="95"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="60.96" y1="-15.24" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-25.4" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-25.4" x2="60.96" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="60.96" y="-15.24"/>
+</segment>
+</net>
 <net name="SOL_1" class="0">
 <segment>
-<pinref part="SSR3" gate="G$1" pin="GND(7)"/>
-<wire x1="165.1" y1="25.4" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="25.4" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="SSR3" gate="G$1" pin="GND(6)"/>
-<wire x1="167.64" y1="22.86" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="20.32" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
-<junction x="167.64" y="22.86"/>
-<label x="193.04" y="27.94" size="1.778" layer="95"/>
-<wire x1="167.64" y1="22.86" x2="180.34" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="22.86" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="27.94" x2="193.04" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="22.86" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SSR3" gate="G$1" pin="VLOAD(8)"/>
+<wire x1="165.1" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SSR3" gate="G$1" pin="VLOAD(5)"/>
+<wire x1="180.34" y1="30.48" x2="180.34" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="22.86" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="15.24" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="180.34" y="22.86"/>
+<label x="190.5" y="22.86" size="1.778" layer="95"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="182.88" y1="22.86" x2="190.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="12.7" x2="182.88" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="12.7" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
+<junction x="182.88" y="22.86"/>
+</segment>
+</net>
+<net name="SOL_12V" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="10.16" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
+<label x="86.36" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="-25.4" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
+<label x="83.82" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="20.32" x2="185.42" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="12.7" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
+<label x="205.74" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -10626,13 +10643,13 @@ Vout = 50 uA * Rset</text>
 <plain>
 <text x="-86.36" y="10.16" size="1.778" layer="91">Pinouts for 8-pin M12 Connector:
 ----------------------------------------------------------------------------------------------------------
-1. Solenoid isolated GND
-2. Solenoid 12V
-3. Solenoid 2 (12VDC SS-Relay output: main/middle switched air-knife)
-4. Solenoid 1 (12VDC SS-Relay output: left side neighbor switched air-knife)
-5. Solenoid 3 (12VDC SS-Relay output: right side neighbor switched air-knife)
-6. Raspberry Pi 12V power
-7. Raspberry Pi GND
+1. Solenoid 1 GPIO 5 (12VDC SS-Relay output: left side neighbor switched air-knife)
+2. Raspberry Pi 12V power, to be stepped down to 5V with regulators
+3. Raspberry Pi GND
+4. Solenoid isolated GND
+5. Solenoid 12V
+6. Solenoid 2 GPIO 13 (12VDC SS-Relay output: main/middle switched air-knife)
+7. Solenoid 3 GPIO 6 (12VDC SS-Relay output: right side neighbor switched air-knife)
 8. Enable solenoid 12V input
  </text>
 <text x="64.77" y="26.162" size="1.778" layer="95" align="top-left">AUML_MULTI-LAYER-VARISTOR</text>
@@ -10671,9 +10688,9 @@ Digikey: F3807CT-ND</text>
 <label x="60.96" y="48.26" size="1.4224" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P$6"/>
-<wire x1="17.78" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
-<label x="20.32" y="12.7" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="P$2"/>
+<wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<label x="20.32" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10687,9 +10704,9 @@ Digikey: F3807CT-ND</text>
 <junction x="60.96" y="17.78"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P$7"/>
-<wire x1="17.78" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
-<label x="20.32" y="10.16" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="P$3"/>
+<wire x1="17.78" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<label x="20.32" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_IN_12V_D" class="0">
@@ -10713,49 +10730,49 @@ Digikey: F3807CT-ND</text>
 <label x="20.32" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SOL_1" class="0">
+<net name="SOL_GND" class="0">
+<segment>
+<pinref part="J13" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="2.54" x2="50.8" y2="2.54" width="0.1524" layer="91"/>
+<label x="40.64" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="P$4"/>
+<wire x1="17.78" y1="17.78" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="20.32" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SOL_12V" class="0">
+<segment>
+<pinref part="J13" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
+<label x="40.64" y="5.08" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="P$5"/>
 <wire x1="17.78" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <label x="20.32" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SOL_2" class="0">
+<net name="SOL_3" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="P$3"/>
-<wire x1="17.78" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-<label x="20.32" y="20.32" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="P$7"/>
+<wire x1="17.78" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
+<label x="20.32" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SOL_GND" class="0">
+<net name="SOL_1" class="0">
 <segment>
 <pinref part="CN1" gate="G$1" pin="P$1"/>
 <wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 <label x="20.32" y="25.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J13" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="2.54" x2="50.8" y2="2.54" width="0.1524" layer="91"/>
-<label x="40.64" y="2.54" size="1.778" layer="95"/>
-</segment>
 </net>
-<net name="SOL_12V" class="0">
+<net name="SOL_2" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="P$2"/>
-<wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
-<label x="20.32" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J13" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
-<label x="40.64" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SOL_3" class="0">
-<segment>
-<pinref part="CN1" gate="G$1" pin="P$4"/>
-<wire x1="17.78" y1="17.78" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="20.32" y="17.78" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="P$6"/>
+<wire x1="17.78" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+<label x="20.32" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
